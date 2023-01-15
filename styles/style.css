@@ -371,3 +371,85 @@ Features you will love & enjoy-
     font-size: 20px;
     padding: 20px;
 }
+
+/*Mobile devices responsive*/
+@media only screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    /*----Header responsive*/
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /*-------Main Features*/
+    .main-Features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Features-photo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+    }
+
+    .Features-photo img {
+        width: 100%;
+
+    }
+
+    /*Features seconde*/
+    .Features-second {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*expericence box styles*/
+    .Features-second .Experience {
+        position: absolute;
+        left: 0;
+        top: 3440px;
+    }
+
+    /*works details styles*/
+    .work-details {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .works {
+        background-color: black;
+
+    }
+
+    .works-title,
+    .works-sub-title {
+        color: #ffff;
+        font-size: 30px;
+    }
+
+    .works:hover {
+        transform: scale(0.8);
+        cursor: pointer;
+        border: 2px solid rgb(21, 252, 13);
+    }
+
+
+
+    /*Sponspors style*/
+    .sponspors-box {
+        display: grid;
+        margin-left: 50px;
+        width: 250px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/*completed moblie responsive*/
